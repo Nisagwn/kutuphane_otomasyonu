@@ -90,7 +90,7 @@
             this.gridControl2.TabIndex = 1;
             this.gridControl2.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView2});
-            this.gridControl2.Click += new System.EventHandler(this.gridControl2_Click);
+            //this.gridControl2.Click += new System.EventHandler(this.gridControl2_Click);
             // 
             // gridView2
             // 

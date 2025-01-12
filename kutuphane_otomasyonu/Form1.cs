@@ -17,7 +17,7 @@ namespace kutuphane_otomasyonu
             InitializeComponent();
         }
             // Veritabanı bağlamı oluşturma
-         kutuphaneotomasyonEntities db = new kutuphaneotomasyonEntities();
+         kutuphaneotomasyonEntities dbo = new kutuphaneotomasyonEntities();
 
       
 
@@ -28,8 +28,8 @@ namespace kutuphane_otomasyonu
             string gelensifre = personel_sifre.Text;
 
             // LINQ sorgusu kullanılarak kullanıcı bilgilerini kontrol etme
-            var personel = (from p in db.personeller
-                            where p.personel_ad == gelenad && p.personel_sifre == gelensifre
+            var personel = (from p in dbo.Tbl_Personeller
+                            where p.person_ad == gelenad && p.person_sifre == gelensifre
                             select p).FirstOrDefault();
 
             if (personel == null)

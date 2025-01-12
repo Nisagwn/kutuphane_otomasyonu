@@ -3,48 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Hp\\source\\repos\\kutuphane_otomasyonu\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9E915A08-69DC-4FFD-AE5F-61A29A4C9E15}|kutuphane_otomasyonu\\kutuphane_otomasyonu.csproj|C:\\Users\\Hp\\source\\repos\\kutuphane_otomasyonu\\kutuphane_otomasyonu\\frmodunc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E915A08-69DC-4FFD-AE5F-61A29A4C9E15}|kutuphane_otomasyonu\\kutuphane_otomasyonu.csproj|solutionrelative:kutuphane_otomasyonu\\frmodunc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E915A08-69DC-4FFD-AE5F-61A29A4C9E15}|kutuphane_otomasyonu\\kutuphane_otomasyonu.csproj|C:\\Users\\Hp\\source\\repos\\kutuphane_otomasyonu\\kutuphane_otomasyonu\\frmkitap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9E915A08-69DC-4FFD-AE5F-61A29A4C9E15}|kutuphane_otomasyonu\\kutuphane_otomasyonu.csproj|solutionrelative:kutuphane_otomasyonu\\frmkitap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E915A08-69DC-4FFD-AE5F-61A29A4C9E15}|kutuphane_otomasyonu\\kutuphane_otomasyonu.csproj|C:\\Users\\Hp\\source\\repos\\kutuphane_otomasyonu\\kutuphane_otomasyonu\\frmkitap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E915A08-69DC-4FFD-AE5F-61A29A4C9E15}|kutuphane_otomasyonu\\kutuphane_otomasyonu.csproj|solutionrelative:kutuphane_otomasyonu\\frmkitap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E915A08-69DC-4FFD-AE5F-61A29A4C9E15}|kutuphane_otomasyonu\\kutuphane_otomasyonu.csproj|C:\\Users\\Hp\\source\\repos\\kutuphane_otomasyonu\\kutuphane_otomasyonu\\anasayfa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9E915A08-69DC-4FFD-AE5F-61A29A4C9E15}|kutuphane_otomasyonu\\kutuphane_otomasyonu.csproj|solutionrelative:kutuphane_otomasyonu\\anasayfa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E915A08-69DC-4FFD-AE5F-61A29A4C9E15}|kutuphane_otomasyonu\\kutuphane_otomasyonu.csproj|C:\\Users\\Hp\\source\\repos\\kutuphane_otomasyonu\\kutuphane_otomasyonu\\frmpersonel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9E915A08-69DC-4FFD-AE5F-61A29A4C9E15}|kutuphane_otomasyonu\\kutuphane_otomasyonu.csproj|solutionrelative:kutuphane_otomasyonu\\frmpersonel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E915A08-69DC-4FFD-AE5F-61A29A4C9E15}|kutuphane_otomasyonu\\kutuphane_otomasyonu.csproj|C:\\Users\\Hp\\source\\repos\\kutuphane_otomasyonu\\kutuphane_otomasyonu\\frmarama.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{9E915A08-69DC-4FFD-AE5F-61A29A4C9E15}|kutuphane_otomasyonu\\kutuphane_otomasyonu.csproj|c:\\users\\hp\\source\\repos\\kutuphane_otomasyonu\\kutuphane_otomasyonu\\frmarama.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{9E915A08-69DC-4FFD-AE5F-61A29A4C9E15}|kutuphane_otomasyonu\\kutuphane_otomasyonu.csproj|solutionrelative:kutuphane_otomasyonu\\frmarama.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E915A08-69DC-4FFD-AE5F-61A29A4C9E15}|kutuphane_otomasyonu\\kutuphane_otomasyonu.csproj|C:\\Users\\Hp\\source\\repos\\kutuphane_otomasyonu\\kutuphane_otomasyonu\\frmarama.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E915A08-69DC-4FFD-AE5F-61A29A4C9E15}|kutuphane_otomasyonu\\kutuphane_otomasyonu.csproj|solutionrelative:kutuphane_otomasyonu\\frmarama.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E915A08-69DC-4FFD-AE5F-61A29A4C9E15}|kutuphane_otomasyonu\\kutuphane_otomasyonu.csproj|c:\\users\\hp\\source\\repos\\kutuphane_otomasyonu\\kutuphane_otomasyonu\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
-      "RelativeMoniker": "D:0:0:{9E915A08-69DC-4FFD-AE5F-61A29A4C9E15}|kutuphane_otomasyonu\\kutuphane_otomasyonu.csproj|solutionrelative:kutuphane_otomasyonu\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9E915A08-69DC-4FFD-AE5F-61A29A4C9E15}|kutuphane_otomasyonu\\kutuphane_otomasyonu.csproj|C:\\Users\\Hp\\source\\repos\\kutuphane_otomasyonu\\kutuphane_otomasyonu\\anasayfa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E915A08-69DC-4FFD-AE5F-61A29A4C9E15}|kutuphane_otomasyonu\\kutuphane_otomasyonu.csproj|solutionrelative:kutuphane_otomasyonu\\anasayfa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E915A08-69DC-4FFD-AE5F-61A29A4C9E15}|kutuphane_otomasyonu\\kutuphane_otomasyonu.csproj|C:\\Users\\Hp\\source\\repos\\kutuphane_otomasyonu\\kutuphane_otomasyonu\\frmodunc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9E915A08-69DC-4FFD-AE5F-61A29A4C9E15}|kutuphane_otomasyonu\\kutuphane_otomasyonu.csproj|solutionrelative:kutuphane_otomasyonu\\frmodunc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{9E915A08-69DC-4FFD-AE5F-61A29A4C9E15}|kutuphane_otomasyonu\\kutuphane_otomasyonu.csproj|C:\\Users\\Hp\\source\\repos\\kutuphane_otomasyonu\\kutuphane_otomasyonu\\frmodunc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E915A08-69DC-4FFD-AE5F-61A29A4C9E15}|kutuphane_otomasyonu\\kutuphane_otomasyonu.csproj|solutionrelative:kutuphane_otomasyonu\\frmodunc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E915A08-69DC-4FFD-AE5F-61A29A4C9E15}|kutuphane_otomasyonu\\kutuphane_otomasyonu.csproj|C:\\Users\\Hp\\source\\repos\\kutuphane_otomasyonu\\kutuphane_otomasyonu\\frmuyeler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E915A08-69DC-4FFD-AE5F-61A29A4C9E15}|kutuphane_otomasyonu\\kutuphane_otomasyonu.csproj|solutionrelative:kutuphane_otomasyonu\\frmuyeler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9E915A08-69DC-4FFD-AE5F-61A29A4C9E15}|kutuphane_otomasyonu\\kutuphane_otomasyonu.csproj|C:\\Users\\Hp\\source\\repos\\kutuphane_otomasyonu\\kutuphane_otomasyonu\\frmkitap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E915A08-69DC-4FFD-AE5F-61A29A4C9E15}|kutuphane_otomasyonu\\kutuphane_otomasyonu.csproj|solutionrelative:kutuphane_otomasyonu\\frmkitap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E915A08-69DC-4FFD-AE5F-61A29A4C9E15}|kutuphane_otomasyonu\\kutuphane_otomasyonu.csproj|C:\\Users\\Hp\\source\\repos\\kutuphane_otomasyonu\\kutuphane_otomasyonu\\frmodunc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9E915A08-69DC-4FFD-AE5F-61A29A4C9E15}|kutuphane_otomasyonu\\kutuphane_otomasyonu.csproj|solutionrelative:kutuphane_otomasyonu\\frmodunc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9E915A08-69DC-4FFD-AE5F-61A29A4C9E15}|kutuphane_otomasyonu\\kutuphane_otomasyonu.csproj|C:\\Users\\Hp\\source\\repos\\kutuphane_otomasyonu\\kutuphane_otomasyonu\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,6 +35,34 @@
       "RelativeMoniker": "D:0:0:{9E915A08-69DC-4FFD-AE5F-61A29A4C9E15}|kutuphane_otomasyonu\\kutuphane_otomasyonu.csproj|solutionrelative:kutuphane_otomasyonu\\frmpersonel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9E915A08-69DC-4FFD-AE5F-61A29A4C9E15}|kutuphane_otomasyonu\\kutuphane_otomasyonu.csproj|C:\\Users\\Hp\\source\\repos\\kutuphane_otomasyonu\\kutuphane_otomasyonu\\frmodunc.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E915A08-69DC-4FFD-AE5F-61A29A4C9E15}|kutuphane_otomasyonu\\kutuphane_otomasyonu.csproj|solutionrelative:kutuphane_otomasyonu\\frmodunc.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E915A08-69DC-4FFD-AE5F-61A29A4C9E15}|kutuphane_otomasyonu\\kutuphane_otomasyonu.csproj|C:\\Users\\Hp\\source\\repos\\kutuphane_otomasyonu\\kutuphane_otomasyonu\\anasayfa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9E915A08-69DC-4FFD-AE5F-61A29A4C9E15}|kutuphane_otomasyonu\\kutuphane_otomasyonu.csproj|solutionrelative:kutuphane_otomasyonu\\anasayfa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E915A08-69DC-4FFD-AE5F-61A29A4C9E15}|kutuphane_otomasyonu\\kutuphane_otomasyonu.csproj|C:\\Users\\Hp\\source\\repos\\kutuphane_otomasyonu\\kutuphane_otomasyonu\\frmpersonel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9E915A08-69DC-4FFD-AE5F-61A29A4C9E15}|kutuphane_otomasyonu\\kutuphane_otomasyonu.csproj|solutionrelative:kutuphane_otomasyonu\\frmpersonel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E915A08-69DC-4FFD-AE5F-61A29A4C9E15}|kutuphane_otomasyonu\\kutuphane_otomasyonu.csproj|C:\\Users\\Hp\\source\\repos\\kutuphane_otomasyonu\\kutuphane_otomasyonu\\frmkitap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9E915A08-69DC-4FFD-AE5F-61A29A4C9E15}|kutuphane_otomasyonu\\kutuphane_otomasyonu.csproj|solutionrelative:kutuphane_otomasyonu\\frmkitap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E915A08-69DC-4FFD-AE5F-61A29A4C9E15}|kutuphane_otomasyonu\\kutuphane_otomasyonu.csproj|C:\\Users\\Hp\\source\\repos\\kutuphane_otomasyonu\\kutuphane_otomasyonu\\frmarama.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E915A08-69DC-4FFD-AE5F-61A29A4C9E15}|kutuphane_otomasyonu\\kutuphane_otomasyonu.csproj|solutionrelative:kutuphane_otomasyonu\\frmarama.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E915A08-69DC-4FFD-AE5F-61A29A4C9E15}|kutuphane_otomasyonu\\kutuphane_otomasyonu.csproj|C:\\Users\\Hp\\source\\repos\\kutuphane_otomasyonu\\kutuphane_otomasyonu\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{9E915A08-69DC-4FFD-AE5F-61A29A4C9E15}|kutuphane_otomasyonu\\kutuphane_otomasyonu.csproj|solutionrelative:kutuphane_otomasyonu\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E915A08-69DC-4FFD-AE5F-61A29A4C9E15}|kutuphane_otomasyonu\\kutuphane_otomasyonu.csproj|C:\\Users\\Hp\\source\\repos\\kutuphane_otomasyonu\\kutuphane_otomasyonu\\frmuyeler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E915A08-69DC-4FFD-AE5F-61A29A4C9E15}|kutuphane_otomasyonu\\kutuphane_otomasyonu.csproj|solutionrelative:kutuphane_otomasyonu\\frmuyeler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9E915A08-69DC-4FFD-AE5F-61A29A4C9E15}|kutuphane_otomasyonu\\kutuphane_otomasyonu.csproj|C:\\Users\\Hp\\source\\repos\\kutuphane_otomasyonu\\kutuphane_otomasyonu\\frmuyeler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{9E915A08-69DC-4FFD-AE5F-61A29A4C9E15}|kutuphane_otomasyonu\\kutuphane_otomasyonu.csproj|solutionrelative:kutuphane_otomasyonu\\frmuyeler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
@@ -70,11 +74,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "FrmArama.cs [Tasar\u0131m]",
               "DocumentMoniker": "C:\\Users\\Hp\\source\\repos\\kutuphane_otomasyonu\\kutuphane_otomasyonu\\FrmArama.cs",
               "RelativeDocumentMoniker": "kutuphane_otomasyonu\\FrmArama.cs",
@@ -95,44 +99,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FrmPersonel.cs [Tasar\u0131m]",
-              "DocumentMoniker": "C:\\Users\\Hp\\source\\repos\\kutuphane_otomasyonu\\kutuphane_otomasyonu\\FrmPersonel.cs",
-              "RelativeDocumentMoniker": "kutuphane_otomasyonu\\FrmPersonel.cs",
-              "ToolTip": "C:\\Users\\Hp\\source\\repos\\kutuphane_otomasyonu\\kutuphane_otomasyonu\\FrmPersonel.cs [Tasar\u0131m]",
-              "RelativeToolTip": "kutuphane_otomasyonu\\FrmPersonel.cs [Tasar\u0131m]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T06:21:16.052Z",
-              "EditorCaption": " [Tasar\u0131m]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "anasayfa.cs [Tasar\u0131m]",
-              "DocumentMoniker": "C:\\Users\\Hp\\source\\repos\\kutuphane_otomasyonu\\kutuphane_otomasyonu\\anasayfa.cs",
-              "RelativeDocumentMoniker": "kutuphane_otomasyonu\\anasayfa.cs",
-              "ToolTip": "C:\\Users\\Hp\\source\\repos\\kutuphane_otomasyonu\\kutuphane_otomasyonu\\anasayfa.cs [Tasar\u0131m]",
-              "RelativeToolTip": "kutuphane_otomasyonu\\anasayfa.cs [Tasar\u0131m]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T09:28:56.89Z",
-              "EditorCaption": " [Tasar\u0131m]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FrmArama.cs",
-              "DocumentMoniker": "C:\\Users\\Hp\\source\\repos\\kutuphane_otomasyonu\\kutuphane_otomasyonu\\FrmArama.cs",
-              "RelativeDocumentMoniker": "kutuphane_otomasyonu\\FrmArama.cs",
-              "ToolTip": "C:\\Users\\Hp\\source\\repos\\kutuphane_otomasyonu\\kutuphane_otomasyonu\\FrmArama.cs",
-              "RelativeToolTip": "kutuphane_otomasyonu\\FrmArama.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAMwBwAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T20:02:38.598Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "anasayfa.cs",
               "DocumentMoniker": "C:\\Users\\Hp\\source\\repos\\kutuphane_otomasyonu\\kutuphane_otomasyonu\\anasayfa.cs",
               "RelativeDocumentMoniker": "kutuphane_otomasyonu\\anasayfa.cs",
@@ -140,74 +107,149 @@
               "RelativeToolTip": "kutuphane_otomasyonu\\anasayfa.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T10:19:26.142Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-17T10:19:26.142Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "FrmOdunc.cs",
               "DocumentMoniker": "C:\\Users\\Hp\\source\\repos\\kutuphane_otomasyonu\\kutuphane_otomasyonu\\FrmOdunc.cs",
               "RelativeDocumentMoniker": "kutuphane_otomasyonu\\FrmOdunc.cs",
               "ToolTip": "C:\\Users\\Hp\\source\\repos\\kutuphane_otomasyonu\\kutuphane_otomasyonu\\FrmOdunc.cs",
               "RelativeToolTip": "kutuphane_otomasyonu\\FrmOdunc.cs",
-              "ViewState": "AgIAAG0AAAAAAAAAAAAEwEoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T17:53:36.27Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-29T17:53:36.27Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "FrmKitap.cs",
               "DocumentMoniker": "C:\\Users\\Hp\\source\\repos\\kutuphane_otomasyonu\\kutuphane_otomasyonu\\FrmKitap.cs",
               "RelativeDocumentMoniker": "kutuphane_otomasyonu\\FrmKitap.cs",
               "ToolTip": "C:\\Users\\Hp\\source\\repos\\kutuphane_otomasyonu\\kutuphane_otomasyonu\\FrmKitap.cs",
               "RelativeToolTip": "kutuphane_otomasyonu\\FrmKitap.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAA3wCQAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwCQAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T17:14:08.39Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-29T17:14:08.39Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 5,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\Hp\\source\\repos\\kutuphane_otomasyonu\\kutuphane_otomasyonu\\Form1.cs",
               "RelativeDocumentMoniker": "kutuphane_otomasyonu\\Form1.cs",
               "ToolTip": "C:\\Users\\Hp\\source\\repos\\kutuphane_otomasyonu\\kutuphane_otomasyonu\\Form1.cs",
               "RelativeToolTip": "kutuphane_otomasyonu\\Form1.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAYwD0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-16T19:12:14.986Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "FrmOdunc.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\Hp\\source\\repos\\kutuphane_otomasyonu\\kutuphane_otomasyonu\\FrmOdunc.cs",
+              "RelativeDocumentMoniker": "kutuphane_otomasyonu\\FrmOdunc.cs",
+              "ToolTip": "C:\\Users\\Hp\\source\\repos\\kutuphane_otomasyonu\\kutuphane_otomasyonu\\FrmOdunc.cs [Tasar\u0131m]",
+              "RelativeToolTip": "kutuphane_otomasyonu\\FrmOdunc.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T17:45:53.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form1.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\Hp\\source\\repos\\kutuphane_otomasyonu\\kutuphane_otomasyonu\\Form1.cs",
+              "RelativeDocumentMoniker": "kutuphane_otomasyonu\\Form1.cs",
+              "ToolTip": "C:\\Users\\Hp\\source\\repos\\kutuphane_otomasyonu\\kutuphane_otomasyonu\\Form1.cs [Tasar\u0131m]",
+              "RelativeToolTip": "kutuphane_otomasyonu\\Form1.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T18:48:56.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FrmPersonel.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\source\\repos\\kutuphane_otomasyonu\\kutuphane_otomasyonu\\FrmPersonel.cs",
+              "RelativeDocumentMoniker": "kutuphane_otomasyonu\\FrmPersonel.cs",
+              "ToolTip": "C:\\Users\\Hp\\source\\repos\\kutuphane_otomasyonu\\kutuphane_otomasyonu\\FrmPersonel.cs",
+              "RelativeToolTip": "kutuphane_otomasyonu\\FrmPersonel.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAswGIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T21:03:53.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FrmOdunc.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\source\\repos\\kutuphane_otomasyonu\\kutuphane_otomasyonu\\FrmOdunc.Designer.cs",
+              "RelativeDocumentMoniker": "kutuphane_otomasyonu\\FrmOdunc.Designer.cs",
+              "ToolTip": "C:\\Users\\Hp\\source\\repos\\kutuphane_otomasyonu\\kutuphane_otomasyonu\\FrmOdunc.Designer.cs",
+              "RelativeToolTip": "kutuphane_otomasyonu\\FrmOdunc.Designer.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAWwFwAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T20:25:26.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "anasayfa.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\Hp\\source\\repos\\kutuphane_otomasyonu\\kutuphane_otomasyonu\\anasayfa.cs",
+              "RelativeDocumentMoniker": "kutuphane_otomasyonu\\anasayfa.cs",
+              "ToolTip": "C:\\Users\\Hp\\source\\repos\\kutuphane_otomasyonu\\kutuphane_otomasyonu\\anasayfa.cs [Tasar\u0131m]",
+              "RelativeToolTip": "kutuphane_otomasyonu\\anasayfa.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T09:28:56.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FrmArama.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\source\\repos\\kutuphane_otomasyonu\\kutuphane_otomasyonu\\FrmArama.cs",
+              "RelativeDocumentMoniker": "kutuphane_otomasyonu\\FrmArama.cs",
+              "ToolTip": "C:\\Users\\Hp\\source\\repos\\kutuphane_otomasyonu\\kutuphane_otomasyonu\\FrmArama.cs",
+              "RelativeToolTip": "kutuphane_otomasyonu\\FrmArama.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAMwBwAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T20:02:38.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FrmPersonel.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\Hp\\source\\repos\\kutuphane_otomasyonu\\kutuphane_otomasyonu\\FrmPersonel.cs",
+              "RelativeDocumentMoniker": "kutuphane_otomasyonu\\FrmPersonel.cs",
+              "ToolTip": "C:\\Users\\Hp\\source\\repos\\kutuphane_otomasyonu\\kutuphane_otomasyonu\\FrmPersonel.cs [Tasar\u0131m]",
+              "RelativeToolTip": "kutuphane_otomasyonu\\FrmPersonel.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T06:21:16.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "FrmKitap.cs [Tasar\u0131m]",
               "DocumentMoniker": "C:\\Users\\Hp\\source\\repos\\kutuphane_otomasyonu\\kutuphane_otomasyonu\\FrmKitap.cs",
               "RelativeDocumentMoniker": "kutuphane_otomasyonu\\FrmKitap.cs",
               "ToolTip": "C:\\Users\\Hp\\source\\repos\\kutuphane_otomasyonu\\kutuphane_otomasyonu\\FrmKitap.cs [Tasar\u0131m]",
               "RelativeToolTip": "kutuphane_otomasyonu\\FrmKitap.cs [Tasar\u0131m]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T17:12:08.611Z",
-              "EditorCaption": " [Tasar\u0131m]"
+              "WhenOpened": "2024-12-29T17:12:08.611Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "Model1.edmx [Diagram1]",
               "DocumentMoniker": "C:\\Users\\Hp\\source\\repos\\kutuphane_otomasyonu\\kutuphane_otomasyonu\\Model1.edmx",
               "RelativeDocumentMoniker": "kutuphane_otomasyonu\\Model1.edmx",
               "ToolTip": "C:\\Users\\Hp\\source\\repos\\kutuphane_otomasyonu\\kutuphane_otomasyonu\\Model1.edmx [Diagram1]",
               "RelativeToolTip": "kutuphane_otomasyonu\\Model1.edmx [Diagram1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2024-12-29T17:28:35.178Z",
-              "EditorCaption": " [Diagram1]"
+              "WhenOpened": "2024-12-29T17:28:35.178Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "FrmUyeler.cs",
               "DocumentMoniker": "C:\\Users\\Hp\\source\\repos\\kutuphane_otomasyonu\\kutuphane_otomasyonu\\FrmUyeler.cs",
               "RelativeDocumentMoniker": "kutuphane_otomasyonu\\FrmUyeler.cs",
@@ -219,43 +261,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "FrmOdunc.cs [Tasar\u0131m]",
-              "DocumentMoniker": "C:\\Users\\Hp\\source\\repos\\kutuphane_otomasyonu\\kutuphane_otomasyonu\\FrmOdunc.cs",
-              "RelativeDocumentMoniker": "kutuphane_otomasyonu\\FrmOdunc.cs",
-              "ToolTip": "C:\\Users\\Hp\\source\\repos\\kutuphane_otomasyonu\\kutuphane_otomasyonu\\FrmOdunc.cs [Tasar\u0131m]",
-              "RelativeToolTip": "kutuphane_otomasyonu\\FrmOdunc.cs [Tasar\u0131m]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T17:45:53.315Z",
-              "EditorCaption": " [Tasar\u0131m]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Form1.cs [Tasar\u0131m]",
-              "DocumentMoniker": "C:\\Users\\Hp\\source\\repos\\kutuphane_otomasyonu\\kutuphane_otomasyonu\\Form1.cs",
-              "RelativeDocumentMoniker": "kutuphane_otomasyonu\\Form1.cs",
-              "ToolTip": "C:\\Users\\Hp\\source\\repos\\kutuphane_otomasyonu\\kutuphane_otomasyonu\\Form1.cs [Tasar\u0131m]",
-              "RelativeToolTip": "kutuphane_otomasyonu\\Form1.cs [Tasar\u0131m]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T18:48:56.389Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "FrmPersonel.cs",
-              "DocumentMoniker": "C:\\Users\\Hp\\source\\repos\\kutuphane_otomasyonu\\kutuphane_otomasyonu\\FrmPersonel.cs",
-              "RelativeDocumentMoniker": "kutuphane_otomasyonu\\FrmPersonel.cs",
-              "ToolTip": "C:\\Users\\Hp\\source\\repos\\kutuphane_otomasyonu\\kutuphane_otomasyonu\\FrmPersonel.cs",
-              "RelativeToolTip": "kutuphane_otomasyonu\\FrmPersonel.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAWwBcAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T21:03:53.588Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "FrmUyeler.cs [Tasar\u0131m]",
               "DocumentMoniker": "C:\\Users\\Hp\\source\\repos\\kutuphane_otomasyonu\\kutuphane_otomasyonu\\FrmUyeler.cs",
               "RelativeDocumentMoniker": "kutuphane_otomasyonu\\FrmUyeler.cs",

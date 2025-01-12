@@ -40,15 +40,16 @@
             // 
             // personel_ad
             // 
-            this.personel_ad.Location = new System.Drawing.Point(371, 254);
+            this.personel_ad.Location = new System.Drawing.Point(422, 302);
             this.personel_ad.Name = "personel_ad";
             this.personel_ad.Size = new System.Drawing.Size(332, 22);
             this.personel_ad.TabIndex = 0;
             // 
             // personel_sifre
             // 
-            this.personel_sifre.Location = new System.Drawing.Point(371, 348);
+            this.personel_sifre.Location = new System.Drawing.Point(422, 387);
             this.personel_sifre.Name = "personel_sifre";
+            this.personel_sifre.PasswordChar = '*';
             this.personel_sifre.Size = new System.Drawing.Size(332, 22);
             this.personel_sifre.TabIndex = 1;
             // 
@@ -56,7 +57,7 @@
             // 
             this.girisbtn.BackColor = System.Drawing.Color.MistyRose;
             this.girisbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.girisbtn.Location = new System.Drawing.Point(443, 401);
+            this.girisbtn.Location = new System.Drawing.Point(503, 493);
             this.girisbtn.Name = "girisbtn";
             this.girisbtn.Size = new System.Drawing.Size(182, 47);
             this.girisbtn.TabIndex = 2;
@@ -68,7 +69,7 @@
             // 
             this.personeladilbl.AutoSize = true;
             this.personeladilbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.personeladilbl.Location = new System.Drawing.Point(201, 254);
+            this.personeladilbl.Location = new System.Drawing.Point(233, 300);
             this.personeladilbl.Name = "personeladilbl";
             this.personeladilbl.Size = new System.Drawing.Size(154, 22);
             this.personeladilbl.TabIndex = 3;
@@ -78,7 +79,7 @@
             // 
             this.personelsifrelbl.AutoSize = true;
             this.personelsifrelbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.personelsifrelbl.Location = new System.Drawing.Point(288, 348);
+            this.personelsifrelbl.Location = new System.Drawing.Point(320, 387);
             this.personelsifrelbl.Name = "personelsifrelbl";
             this.personelsifrelbl.Size = new System.Drawing.Size(67, 22);
             this.personelsifrelbl.TabIndex = 4;
@@ -87,7 +88,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(443, 54);
+            this.pictureBox1.Location = new System.Drawing.Point(503, 79);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(182, 154);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -99,15 +100,18 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(1067, 637);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(1178, 755);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.personelsifrelbl);
             this.Controls.Add(this.personeladilbl);
             this.Controls.Add(this.girisbtn);
             this.Controls.Add(this.personel_sifre);
             this.Controls.Add(this.personel_ad);
+            this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

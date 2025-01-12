@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kutuphane_otomasyonu", "kut
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "KÜTÜPHANEOTOMASYONU", "KÜTÜPHANEOTOMASYONU\KÜTÜPHANEOTOMASYONU.vdproj", "{39396726-F54E-4D83-BEA0-B40519D62F2B}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "KUTUPHANE.OTOMASYONU.SETUP", "KUTUPHANE.OTOMASYONU.SETUP\KUTUPHANE.OTOMASYONU.SETUP.vdproj", "{26A85725-0056-498E-B0C9-1743BBDE629E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,8 @@ Global
 		{9E915A08-69DC-4FFD-AE5F-61A29A4C9E15}.Release|Any CPU.Build.0 = Release|Any CPU
 		{39396726-F54E-4D83-BEA0-B40519D62F2B}.Debug|Any CPU.ActiveCfg = Debug
 		{39396726-F54E-4D83-BEA0-B40519D62F2B}.Release|Any CPU.ActiveCfg = Release
+		{26A85725-0056-498E-B0C9-1743BBDE629E}.Debug|Any CPU.ActiveCfg = Debug
+		{26A85725-0056-498E-B0C9-1743BBDE629E}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

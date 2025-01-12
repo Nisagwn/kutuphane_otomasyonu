@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Data.SqlClient;
-using System.Drawing;
+﻿
+using System;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace kutuphane_otomasyonu
@@ -16,102 +10,119 @@ namespace kutuphane_otomasyonu
         public FrmOdunc()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen; // Formu ekranın ortasında başlatır.
         }
+
         kutuphaneotomasyonEntities db = new kutuphaneotomasyonEntities();
+
+        // Ödünç listeleme metodu
         void listeleOdunc()
         {
-            var kayit = db.Tbl_Odunc.ToList();
-            gridControl1.DataSource = kayit.ToList();
+            gridControl1.DataSource = db.Tbl_Odunc.ToList();
+            gridControl1.RefreshDataSource();
         }
+
+        // Kitap listeleme metodu
         void listeleKitap()
         {
-            var kayit = db.Tbl_Kitaplar.ToList();
-            gridControl2.DataSource = kayit.ToList();
+            gridControl2.DataSource = db.Tbl_Kitaplar.ToList();
+            gridControl2.RefreshDataSource();
         }
+
+        // Form yüklenirken listeleme işlemleri
         private void FrmOdunc_Load(object sender, EventArgs e)
         {
-            var kitap = db.Tbl_Kitaplar.ToList();
-            gridControl2.DataSource = kitap.ToList();
-
-            var kayit = db.Tbl_Odunc.ToList();
-            gridControl1.DataSource = kayit.ToList();
+            listeleKitap();
+            listeleOdunc();
         }
 
-        private void simpleButton1_Click(object sender, EventArgs e) //btnuyeara_click
+        // Üye TC ile arama
+        private void simpleButton1_Click(object sender, EventArgs e) // btnUyeAra_Click
         {
             string aranantc = txtUyeTc.Text;
-            var bulunanKullanici = db.Tbl_Uyeler.Where(x => x.uye_tc.Equals(aranantc)).FirstOrDefault();
+            var bulunanKullanici = db.Tbl_Uyeler.FirstOrDefault(x => x.uye_tc == aranantc);
+
             if (bulunanKullanici != null)
             {
-                txtUyeAd.Text = bulunanKullanici.uye_ad + " " + bulunanKullanici.uye_soyad;
+                txtUyeAd.Text = $"{bulunanKullanici.uye_ad} {bulunanKullanici.uye_soyad}";
             }
             else
             {
                 MessageBox.Show("Kişi Bulunamadı", "Uyarı", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                txtUyeAd.Text = "";
+                txtUyeAd.Clear();
             }
         }
-        //Ödünç verme
-        private void simpleButton2_Click(object sender, EventArgs e) //btnoduncver_click
+
+        // Ödünç verme
+        private void simpleButton2_Click(object sender, EventArgs e) // btnOduncVer_Click
         {
-            //TC'nin alınması
             string gelenTC = txtUyeTc.Text;
-            var secilenKisi = db.Tbl_Uyeler.Where(x => x.uye_tc.Equals(gelenTC)).FirstOrDefault();
-            //Kitap id'sinin alınması
+            var secilenKisi = db.Tbl_Uyeler.FirstOrDefault(x => x.uye_tc == gelenTC);
+
+            if (secilenKisi == null)
+            {
+                MessageBox.Show("Üye bulunamadı.", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
             var gridView = gridControl2.MainView as DevExpress.XtraGrid.Views.Grid.GridView;
+            if (gridView.FocusedRowHandle < 0)
+            {
+                MessageBox.Show("Lütfen bir kitap seçin.", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
             int secilenKitapId = Convert.ToInt32(gridView.GetRowCellValue(gridView.FocusedRowHandle, gridView.Columns[0]));
-            var secilenKitap = db.Tbl_Kitaplar.Where(x => x.kaynak_id == secilenKitapId).FirstOrDefault();
-            MessageBox.Show("Seçilen kitap ödünç verildi.", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            //Ödünç tablosunda yeni kayıt 
-            Tbl_Odunc yeniOdunc = new Tbl_Odunc();
-            yeniOdunc.kitap_id = secilenKitap.kaynak_id;
-            yeniOdunc.kullanici_id = secilenKisi.uye_id;
-            yeniOdunc.alis_tarih = DateTime.Today;
-            yeniOdunc.veris_tarih = DateTime.Today.AddDays(1);
-            yeniOdunc.durum = false;
+            var secilenKitap = db.Tbl_Kitaplar.FirstOrDefault(x => x.kaynak_id == secilenKitapId);
+
+            if (secilenKitap == null)
+            {
+                MessageBox.Show("Kitap bulunamadı.", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            Tbl_Odunc yeniOdunc = new Tbl_Odunc
+            {
+                kitap_id = secilenKitap.kaynak_id,
+                kullanici_id = secilenKisi.uye_id,
+                alis_tarih = DateTime.Today,
+                veris_tarih = DateTime.Today.AddDays(7),
+                durum = false
+            };
             db.Tbl_Odunc.Add(yeniOdunc);
+
             secilenKitap.kaynak_okumaSayisi += 1;
             db.SaveChanges();
 
-            //Ödünç tablosunda yeni tablonun listelenmesi
-            var odunc = db.Tbl_Odunc.ToList();
-            gridControl1.DataSource = odunc;
+            MessageBox.Show("Seçilen kitap ödünç verildi.", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            listeleOdunc();
         }
 
-        private void simpleButton3_Click(object sender, EventArgs e) //btnodunciadeet_click
+        // Ödünç iade etme
+        private void simpleButton3_Click(object sender, EventArgs e) // btnOduncIadeEt_Click
         {
-            // Kullanıcının girdiği ödünç ID'yi al
-            int oduncId = Convert.ToInt32(txtOduncId.Text);
+            if (!int.TryParse(txtOduncId.Text, out int oduncId))
+            {
+                MessageBox.Show("Geçerli bir ödünç ID girin.", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
 
-            // Ödünç tablosunda ilgili kaydı bul
-            var oduncKaydi = db.Tbl_Odunc.Where(x => x.odunc_id == oduncId && x.durum == false).FirstOrDefault();
+            // var oduncKaydi = db.Tbl_Odunc.FirstOrDefault(x => x.odunc_id == oduncId && !x.durum);
+            var oduncKaydi = db.Tbl_Odunc.FirstOrDefault(x => x.odunc_id == oduncId && x.durum == false);
+
 
             if (oduncKaydi != null)
             {
-                // Durumu iade edildi olarak güncelle
                 oduncKaydi.durum = true;
-
-                // Veritabanında değişiklikleri kaydet
                 db.SaveChanges();
 
-                
-
-                // Kullanıcıya işlem bilgisi ver
                 MessageBox.Show("Ödünç kaydı başarıyla iade edildi.", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                listeleOdunc();
             }
             else
             {
-                // İlgili ödünç kaydı bulunamazsa uyarı mesajı göster
                 MessageBox.Show("Belirtilen ID'ye ait aktif bir ödünç kaydı bulunamadı!", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
-            // Güncel ödünç kayıtlarını listele
-            var odunc = db.Tbl_Odunc.Where(x => x.durum == false).ToList();
-            gridControl1.DataSource = odunc;
-        }
-
-        private void gridControl2_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
